@@ -1,0 +1,6 @@
+framework module Pods_mokumoku_onlie {
+  umbrella header "Pods-mokumoku_onlie-umbrella.h"
+
+  export *
+  module * { export * }
+}

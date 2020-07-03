@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44329F6A24A6D03F0075E2C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F6924A6D03F0075E2C9 /* AppDelegate.swift */; };
+		44329F6C24A6D03F0075E2C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F6B24A6D03F0075E2C9 /* SceneDelegate.swift */; };
+		44329F7124A6D03F0075E2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44329F6F24A6D03F0075E2C9 /* Main.storyboard */; };
+		44329F7324A6D0440075E2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44329F7224A6D0440075E2C9 /* Assets.xcassets */; };
+		44329F7624A6D0440075E2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44329F7424A6D0440075E2C9 /* LaunchScreen.storyboard */; };
+		44329F8124A6D0440075E2C9 /* mokumoku_onlieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F8024A6D0440075E2C9 /* mokumoku_onlieTests.swift */; };
+		44329F8C24A6D0440075E2C9 /* mokumoku_onlieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F8B24A6D0440075E2C9 /* mokumoku_onlieUITests.swift */; };
+		44329F9A24A6D7730075E2C9 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F9924A6D7730075E2C9 /* TitleViewController.swift */; };
+		44329F9C24A6E35A0075E2C9 /* MomokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329F9B24A6E35A0075E2C9 /* MomokuViewController.swift */; };
+		44329FA724A7064A0075E2C9 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = 44329FA224A7064A0075E2C9 /* table.png */; };
+		44329FB124A70DA10075E2C9 /* EnterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FB024A70DA10075E2C9 /* EnterModel.swift */; };
+		44329FB324A70DF40075E2C9 /* ScheduledRunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FB224A70DF40075E2C9 /* ScheduledRunModel.swift */; };
+		44329FB524A70E1C0075E2C9 /* ExitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FB424A70E1C0075E2C9 /* ExitModel.swift */; };
+		44329FB724A70F470075E2C9 /* SetitngUseridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FB624A70F470075E2C9 /* SetitngUseridViewModel.swift */; };
+		44329FB924A71EB80075E2C9 /* ScheduledRunViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FB824A71EB80075E2C9 /* ScheduledRunViewModel.swift */; };
+		44329FBB24A7A8490075E2C9 /* SetitngUseridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329FBA24A7A8490075E2C9 /* SetitngUseridViewController.swift */; };
+		44ADA8C324A8295B00CB1EC3 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADA8C224A8295B00CB1EC3 /* TitleViewModel.swift */; };
+		44ADA8C624A8512300CB1EC3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8C424A8512200CB1EC3 /* background.png */; };
+		44ADA8C724A8512300CB1EC3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8C524A8512200CB1EC3 /* logo.png */; };
+		44ADA8CF24A8574900CB1EC3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8CE24A8574900CB1EC3 /* background.jpg */; };
+		44ADA8D124A85A5200CB1EC3 /* MokumokuExitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADA8D024A85A5200CB1EC3 /* MokumokuExitViewModel.swift */; };
+		44ADA8D624A85FBD00CB1EC3 /* sample4.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8D224A85FBC00CB1EC3 /* sample4.png */; };
+		44ADA8D724A85FBD00CB1EC3 /* sample1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8D324A85FBC00CB1EC3 /* sample1.png */; };
+		44ADA8D824A85FBD00CB1EC3 /* sample2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8D424A85FBC00CB1EC3 /* sample2.png */; };
+		44ADA8D924A85FBD00CB1EC3 /* sample3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8D524A85FBC00CB1EC3 /* sample3.png */; };
+		44ADA8DB24A85FC500CB1EC3 /* shopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8DA24A85FC500CB1EC3 /* shopButton.png */; };
+		44ADA8E624A87B8000CB1EC3 /* enterButton-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8E424A87B8000CB1EC3 /* enterButton-removebg-preview.png */; };
+		44ADA8E724A87B8000CB1EC3 /* exitButton-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8E524A87B8000CB1EC3 /* exitButton-removebg-preview.png */; };
+		44ADA8E924A8853F00CB1EC3 /* pepple-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 44ADA8E824A8853E00CB1EC3 /* pepple-removebg-preview.png */; };
+		491E8F7818189C4BEB5CEAF4 /* Pods_mokumoku_onlie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0324B1A2FFAA9257B8F35572 /* Pods_mokumoku_onlie.framework */; };
+		DA81ED607695DCA54DDC8612 /* Pods_mokumoku_onlieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF49A3D33AD4C5417A526E2 /* Pods_mokumoku_onlieTests.framework */; };
+		EDCC7F40100A19D8D06B8FD5 /* Pods_mokumoku_onlie_mokumoku_onlieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6488EAD205317F9833D4F0E0 /* Pods_mokumoku_onlie_mokumoku_onlieUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44329F7D24A6D0440075E2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44329F5E24A6D03E0075E2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44329F6524A6D03F0075E2C9;
+			remoteInfo = mokumoku_onlie;
+		};
+		44329F8824A6D0440075E2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44329F5E24A6D03E0075E2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44329F6524A6D03F0075E2C9;
+			remoteInfo = mokumoku_onlie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0237AEC2F1B2D1EBAD57B8B6 /* Pods-mokumoku_onlie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlie.release.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlie/Pods-mokumoku_onlie.release.xcconfig"; sourceTree = "<group>"; };
+		0324B1A2FFAA9257B8F35572 /* Pods_mokumoku_onlie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mokumoku_onlie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179394952D1FF6A3F3AFD36E /* Pods-mokumoku_onlie-mokumoku_onlieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlie-mokumoku_onlieUITests.debug.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlie-mokumoku_onlieUITests/Pods-mokumoku_onlie-mokumoku_onlieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3364AF2BEC4A8A12E0AD3DC7 /* Pods-mokumoku_onlieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlieTests.release.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlieTests/Pods-mokumoku_onlieTests.release.xcconfig"; sourceTree = "<group>"; };
+		44329F6624A6D03F0075E2C9 /* mokumoku_onlie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mokumoku_onlie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44329F6924A6D03F0075E2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44329F6B24A6D03F0075E2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44329F7024A6D03F0075E2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44329F7224A6D0440075E2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44329F7524A6D0440075E2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44329F7724A6D0440075E2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44329F7C24A6D0440075E2C9 /* mokumoku_onlieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mokumoku_onlieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44329F8024A6D0440075E2C9 /* mokumoku_onlieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mokumoku_onlieTests.swift; sourceTree = "<group>"; };
+		44329F8224A6D0440075E2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44329F8724A6D0440075E2C9 /* mokumoku_onlieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mokumoku_onlieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44329F8B24A6D0440075E2C9 /* mokumoku_onlieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mokumoku_onlieUITests.swift; sourceTree = "<group>"; };
+		44329F8D24A6D0440075E2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44329F9924A6D7730075E2C9 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		44329F9B24A6E35A0075E2C9 /* MomokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomokuViewController.swift; sourceTree = "<group>"; };
+		44329FA224A7064A0075E2C9 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		44329FB024A70DA10075E2C9 /* EnterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterModel.swift; sourceTree = "<group>"; };
+		44329FB224A70DF40075E2C9 /* ScheduledRunModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledRunModel.swift; sourceTree = "<group>"; };
+		44329FB424A70E1C0075E2C9 /* ExitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitModel.swift; sourceTree = "<group>"; };
+		44329FB624A70F470075E2C9 /* SetitngUseridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetitngUseridViewModel.swift; sourceTree = "<group>"; };
+		44329FB824A71EB80075E2C9 /* ScheduledRunViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledRunViewModel.swift; sourceTree = "<group>"; };
+		44329FBA24A7A8490075E2C9 /* SetitngUseridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetitngUseridViewController.swift; sourceTree = "<group>"; };
+		44ADA8C224A8295B00CB1EC3 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		44ADA8C424A8512200CB1EC3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		44ADA8C524A8512200CB1EC3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		44ADA8CE24A8574900CB1EC3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		44ADA8D024A85A5200CB1EC3 /* MokumokuExitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokumokuExitViewModel.swift; sourceTree = "<group>"; };
+		44ADA8D224A85FBC00CB1EC3 /* sample4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample4.png; sourceTree = "<group>"; };
+		44ADA8D324A85FBC00CB1EC3 /* sample1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample1.png; sourceTree = "<group>"; };
+		44ADA8D424A85FBC00CB1EC3 /* sample2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample2.png; sourceTree = "<group>"; };
+		44ADA8D524A85FBC00CB1EC3 /* sample3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample3.png; sourceTree = "<group>"; };
+		44ADA8DA24A85FC500CB1EC3 /* shopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopButton.png; sourceTree = "<group>"; };
+		44ADA8E424A87B8000CB1EC3 /* enterButton-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enterButton-removebg-preview.png"; sourceTree = "<group>"; };
+		44ADA8E524A87B8000CB1EC3 /* exitButton-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exitButton-removebg-preview.png"; sourceTree = "<group>"; };
+		44ADA8E824A8853E00CB1EC3 /* pepple-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pepple-removebg-preview.png"; sourceTree = "<group>"; };
+		5DF49A3D33AD4C5417A526E2 /* Pods_mokumoku_onlieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mokumoku_onlieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6488EAD205317F9833D4F0E0 /* Pods_mokumoku_onlie_mokumoku_onlieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mokumoku_onlie_mokumoku_onlieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AB8D2FC9E01C781C11E603 /* Pods-mokumoku_onlie-mokumoku_onlieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlie-mokumoku_onlieUITests.release.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlie-mokumoku_onlieUITests/Pods-mokumoku_onlie-mokumoku_onlieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFB0223295DAAEC5185272B9 /* Pods-mokumoku_onlie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlie.debug.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlie/Pods-mokumoku_onlie.debug.xcconfig"; sourceTree = "<group>"; };
+		F49EE69F094CA6A3844BE45A /* Pods-mokumoku_onlieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokumoku_onlieTests.debug.xcconfig"; path = "Target Support Files/Pods-mokumoku_onlieTests/Pods-mokumoku_onlieTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44329F6324A6D03F0075E2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491E8F7818189C4BEB5CEAF4 /* Pods_mokumoku_onlie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F7924A6D0440075E2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA81ED607695DCA54DDC8612 /* Pods_mokumoku_onlieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F8424A6D0440075E2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCC7F40100A19D8D06B8FD5 /* Pods_mokumoku_onlie_mokumoku_onlieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44329F5D24A6D03E0075E2C9 = {
+			isa = PBXGroup;
+			children = (
+				44329F6824A6D03F0075E2C9 /* mokumoku_onlie */,
+				44329F7F24A6D0440075E2C9 /* mokumoku_onlieTests */,
+				44329F8A24A6D0440075E2C9 /* mokumoku_onlieUITests */,
+				44329F6724A6D03F0075E2C9 /* Products */,
+				AF429D2CE6876C329ED2675E /* Pods */,
+				6415582DBFA31A86F828E4A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44329F6724A6D03F0075E2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44329F6624A6D03F0075E2C9 /* mokumoku_onlie.app */,
+				44329F7C24A6D0440075E2C9 /* mokumoku_onlieTests.xctest */,
+				44329F8724A6D0440075E2C9 /* mokumoku_onlieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44329F6824A6D03F0075E2C9 /* mokumoku_onlie */ = {
+			isa = PBXGroup;
+			children = (
+				44329FA224A7064A0075E2C9 /* table.png */,
+				44329F9D24A7064A0075E2C9 /* image */,
+				44329F6924A6D03F0075E2C9 /* AppDelegate.swift */,
+				44329F6B24A6D03F0075E2C9 /* SceneDelegate.swift */,
+				44329F6F24A6D03F0075E2C9 /* Main.storyboard */,
+				44329F9B24A6E35A0075E2C9 /* MomokuViewController.swift */,
+				44ADA8D024A85A5200CB1EC3 /* MokumokuExitViewModel.swift */,
+				44329FB624A70F470075E2C9 /* SetitngUseridViewModel.swift */,
+				44329FB824A71EB80075E2C9 /* ScheduledRunViewModel.swift */,
+				44ADA8C224A8295B00CB1EC3 /* TitleViewModel.swift */,
+				44329F9924A6D7730075E2C9 /* TitleViewController.swift */,
+				44329FBA24A7A8490075E2C9 /* SetitngUseridViewController.swift */,
+				44329FB024A70DA10075E2C9 /* EnterModel.swift */,
+				44329FB224A70DF40075E2C9 /* ScheduledRunModel.swift */,
+				44329FB424A70E1C0075E2C9 /* ExitModel.swift */,
+				44329F7224A6D0440075E2C9 /* Assets.xcassets */,
+				44329F7424A6D0440075E2C9 /* LaunchScreen.storyboard */,
+				44329F7724A6D0440075E2C9 /* Info.plist */,
+			);
+			path = mokumoku_onlie;
+			sourceTree = "<group>";
+		};
+		44329F7F24A6D0440075E2C9 /* mokumoku_onlieTests */ = {
+			isa = PBXGroup;
+			children = (
+				44329F8024A6D0440075E2C9 /* mokumoku_onlieTests.swift */,
+				44329F8224A6D0440075E2C9 /* Info.plist */,
+			);
+			path = mokumoku_onlieTests;
+			sourceTree = "<group>";
+		};
+		44329F8A24A6D0440075E2C9 /* mokumoku_onlieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44329F8B24A6D0440075E2C9 /* mokumoku_onlieUITests.swift */,
+				44329F8D24A6D0440075E2C9 /* Info.plist */,
+			);
+			path = mokumoku_onlieUITests;
+			sourceTree = "<group>";
+		};
+		44329F9D24A7064A0075E2C9 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				44ADA8C424A8512200CB1EC3 /* background.png */,
+				44ADA8CE24A8574900CB1EC3 /* background.jpg */,
+				44ADA8C524A8512200CB1EC3 /* logo.png */,
+				44ADA8D324A85FBC00CB1EC3 /* sample1.png */,
+				44ADA8D424A85FBC00CB1EC3 /* sample2.png */,
+				44ADA8D524A85FBC00CB1EC3 /* sample3.png */,
+				44ADA8D224A85FBC00CB1EC3 /* sample4.png */,
+				44ADA8DA24A85FC500CB1EC3 /* shopButton.png */,
+				44ADA8E424A87B8000CB1EC3 /* enterButton-removebg-preview.png */,
+				44ADA8E524A87B8000CB1EC3 /* exitButton-removebg-preview.png */,
+				44ADA8E824A8853E00CB1EC3 /* pepple-removebg-preview.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		6415582DBFA31A86F828E4A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0324B1A2FFAA9257B8F35572 /* Pods_mokumoku_onlie.framework */,
+				6488EAD205317F9833D4F0E0 /* Pods_mokumoku_onlie_mokumoku_onlieUITests.framework */,
+				5DF49A3D33AD4C5417A526E2 /* Pods_mokumoku_onlieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF429D2CE6876C329ED2675E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB0223295DAAEC5185272B9 /* Pods-mokumoku_onlie.debug.xcconfig */,
+				0237AEC2F1B2D1EBAD57B8B6 /* Pods-mokumoku_onlie.release.xcconfig */,
+				179394952D1FF6A3F3AFD36E /* Pods-mokumoku_onlie-mokumoku_onlieUITests.debug.xcconfig */,
+				D6AB8D2FC9E01C781C11E603 /* Pods-mokumoku_onlie-mokumoku_onlieUITests.release.xcconfig */,
+				F49EE69F094CA6A3844BE45A /* Pods-mokumoku_onlieTests.debug.xcconfig */,
+				3364AF2BEC4A8A12E0AD3DC7 /* Pods-mokumoku_onlieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44329F6524A6D03F0075E2C9 /* mokumoku_onlie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44329F9024A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlie" */;
+			buildPhases = (
+				26B201E3FF69DA6E9E6886ED /* [CP] Check Pods Manifest.lock */,
+				44329F6224A6D03F0075E2C9 /* Sources */,
+				44329F6324A6D03F0075E2C9 /* Frameworks */,
+				44329F6424A6D03F0075E2C9 /* Resources */,
+				8CDA69BE29168C04921E0A34 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mokumoku_onlie;
+			productName = mokumoku_onlie;
+			productReference = 44329F6624A6D03F0075E2C9 /* mokumoku_onlie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44329F7B24A6D0440075E2C9 /* mokumoku_onlieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44329F9324A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlieTests" */;
+			buildPhases = (
+				CB9FA8F281EE15FF2B9F7999 /* [CP] Check Pods Manifest.lock */,
+				44329F7824A6D0440075E2C9 /* Sources */,
+				44329F7924A6D0440075E2C9 /* Frameworks */,
+				44329F7A24A6D0440075E2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44329F7E24A6D0440075E2C9 /* PBXTargetDependency */,
+			);
+			name = mokumoku_onlieTests;
+			productName = mokumoku_onlieTests;
+			productReference = 44329F7C24A6D0440075E2C9 /* mokumoku_onlieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44329F8624A6D0440075E2C9 /* mokumoku_onlieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44329F9624A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlieUITests" */;
+			buildPhases = (
+				647B777F32095F76A64E2757 /* [CP] Check Pods Manifest.lock */,
+				44329F8324A6D0440075E2C9 /* Sources */,
+				44329F8424A6D0440075E2C9 /* Frameworks */,
+				44329F8524A6D0440075E2C9 /* Resources */,
+				9918E151B0582A1A28935D79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44329F8924A6D0440075E2C9 /* PBXTargetDependency */,
+			);
+			name = mokumoku_onlieUITests;
+			productName = mokumoku_onlieUITests;
+			productReference = 44329F8724A6D0440075E2C9 /* mokumoku_onlieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44329F5E24A6D03E0075E2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "工藤海斗";
+				TargetAttributes = {
+					44329F6524A6D03F0075E2C9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					44329F7B24A6D0440075E2C9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 44329F6524A6D03F0075E2C9;
+					};
+					44329F8624A6D0440075E2C9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 44329F6524A6D03F0075E2C9;
+					};
+				};
+			};
+			buildConfigurationList = 44329F6124A6D03E0075E2C9 /* Build configuration list for PBXProject "mokumoku_onlie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44329F5D24A6D03E0075E2C9;
+			productRefGroup = 44329F6724A6D03F0075E2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44329F6524A6D03F0075E2C9 /* mokumoku_onlie */,
+				44329F7B24A6D0440075E2C9 /* mokumoku_onlieTests */,
+				44329F8624A6D0440075E2C9 /* mokumoku_onlieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44329F6424A6D03F0075E2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44329F7624A6D0440075E2C9 /* LaunchScreen.storyboard in Resources */,
+				44ADA8E624A87B8000CB1EC3 /* enterButton-removebg-preview.png in Resources */,
+				44329FA724A7064A0075E2C9 /* table.png in Resources */,
+				44329F7324A6D0440075E2C9 /* Assets.xcassets in Resources */,
+				44ADA8D824A85FBD00CB1EC3 /* sample2.png in Resources */,
+				44ADA8DB24A85FC500CB1EC3 /* shopButton.png in Resources */,
+				44ADA8E924A8853F00CB1EC3 /* pepple-removebg-preview.png in Resources */,
+				44ADA8C724A8512300CB1EC3 /* logo.png in Resources */,
+				44ADA8D624A85FBD00CB1EC3 /* sample4.png in Resources */,
+				44ADA8D724A85FBD00CB1EC3 /* sample1.png in Resources */,
+				44ADA8D924A85FBD00CB1EC3 /* sample3.png in Resources */,
+				44ADA8C624A8512300CB1EC3 /* background.png in Resources */,
+				44ADA8E724A87B8000CB1EC3 /* exitButton-removebg-preview.png in Resources */,
+				44ADA8CF24A8574900CB1EC3 /* background.jpg in Resources */,
+				44329F7124A6D03F0075E2C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F7A24A6D0440075E2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F8524A6D0440075E2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B201E3FF69DA6E9E6886ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mokumoku_onlie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647B777F32095F76A64E2757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mokumoku_onlie-mokumoku_onlieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDA69BE29168C04921E0A34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie/Pods-mokumoku_onlie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie/Pods-mokumoku_onlie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie/Pods-mokumoku_onlie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9918E151B0582A1A28935D79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie-mokumoku_onlieUITests/Pods-mokumoku_onlie-mokumoku_onlieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie-mokumoku_onlieUITests/Pods-mokumoku_onlie-mokumoku_onlieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mokumoku_onlie-mokumoku_onlieUITests/Pods-mokumoku_onlie-mokumoku_onlieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB9FA8F281EE15FF2B9F7999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mokumoku_onlieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44329F6224A6D03F0075E2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44329F9C24A6E35A0075E2C9 /* MomokuViewController.swift in Sources */,
+				44329FB324A70DF40075E2C9 /* ScheduledRunModel.swift in Sources */,
+				44329FB924A71EB80075E2C9 /* ScheduledRunViewModel.swift in Sources */,
+				44329FBB24A7A8490075E2C9 /* SetitngUseridViewController.swift in Sources */,
+				44ADA8D124A85A5200CB1EC3 /* MokumokuExitViewModel.swift in Sources */,
+				44329FB124A70DA10075E2C9 /* EnterModel.swift in Sources */,
+				44329F6A24A6D03F0075E2C9 /* AppDelegate.swift in Sources */,
+				44329FB524A70E1C0075E2C9 /* ExitModel.swift in Sources */,
+				44329FB724A70F470075E2C9 /* SetitngUseridViewModel.swift in Sources */,
+				44329F6C24A6D03F0075E2C9 /* SceneDelegate.swift in Sources */,
+				44329F9A24A6D7730075E2C9 /* TitleViewController.swift in Sources */,
+				44ADA8C324A8295B00CB1EC3 /* TitleViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F7824A6D0440075E2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44329F8124A6D0440075E2C9 /* mokumoku_onlieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44329F8324A6D0440075E2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44329F8C24A6D0440075E2C9 /* mokumoku_onlieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44329F7E24A6D0440075E2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44329F6524A6D03F0075E2C9 /* mokumoku_onlie */;
+			targetProxy = 44329F7D24A6D0440075E2C9 /* PBXContainerItemProxy */;
+		};
+		44329F8924A6D0440075E2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44329F6524A6D03F0075E2C9 /* mokumoku_onlie */;
+			targetProxy = 44329F8824A6D0440075E2C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44329F6F24A6D03F0075E2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44329F7024A6D03F0075E2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44329F7424A6D0440075E2C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44329F7524A6D0440075E2C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44329F8E24A6D0440075E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44329F8F24A6D0440075E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44329F9124A6D0440075E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB0223295DAAEC5185272B9 /* Pods-mokumoku_onlie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.kaitokudou2468110921.mokumokuOnlie20200628;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44329F9224A6D0440075E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0237AEC2F1B2D1EBAD57B8B6 /* Pods-mokumoku_onlie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.kaitokudou2468110921.mokumokuOnlie20200628;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44329F9424A6D0440075E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49EE69F094CA6A3844BE45A /* Pods-mokumoku_onlieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.kaitokudou2468110921.mokumoku-onlieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mokumoku_onlie.app/mokumoku_onlie";
+			};
+			name = Debug;
+		};
+		44329F9524A6D0440075E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3364AF2BEC4A8A12E0AD3DC7 /* Pods-mokumoku_onlieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.kaitokudou2468110921.mokumoku-onlieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mokumoku_onlie.app/mokumoku_onlie";
+			};
+			name = Release;
+		};
+		44329F9724A6D0440075E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179394952D1FF6A3F3AFD36E /* Pods-mokumoku_onlie-mokumoku_onlieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.kaitokudou2468110921.mokumoku-onlieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mokumoku_onlie;
+			};
+			name = Debug;
+		};
+		44329F9824A6D0440075E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AB8D2FC9E01C781C11E603 /* Pods-mokumoku_onlie-mokumoku_onlieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX3FKMWYLL;
+				INFOPLIST_FILE = mokumoku_onlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.kaitokudou2468110921.mokumoku-onlieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mokumoku_onlie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44329F6124A6D03E0075E2C9 /* Build configuration list for PBXProject "mokumoku_onlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44329F8E24A6D0440075E2C9 /* Debug */,
+				44329F8F24A6D0440075E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44329F9024A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44329F9124A6D0440075E2C9 /* Debug */,
+				44329F9224A6D0440075E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44329F9324A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44329F9424A6D0440075E2C9 /* Debug */,
+				44329F9524A6D0440075E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44329F9624A6D0440075E2C9 /* Build configuration list for PBXNativeTarget "mokumoku_onlieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44329F9724A6D0440075E2C9 /* Debug */,
+				44329F9824A6D0440075E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44329F5E24A6D03E0075E2C9 /* Project object */;
+}
